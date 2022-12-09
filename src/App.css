@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  min-width: 650px;
+}
+
+tr {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  outline: 0;
+}
+
+th {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  text-align: left;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+tbody,
+thead {
+  display: table-row-group;
+}
+
+td {
+  white-space: nowrap;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  text-align: right;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+span.img {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+
+tbody > tr > td:nth-child(2),
+tbody > tr > td:nth-child(3),
+tbody > tr > td:nth-child(4),
+tbody > tr > td:nth-child(5) {
+  background-color: #f4f4f4;
+}
+
+tbody > tr > td:nth-child(6),
+tbody > tr > td:nth-child(7) {
+  background-color: #c5c5c5;
+}
+
+tbody > tr > td:nth-child(8) {
+  background-color: #000;
+  color: #fff;
+}
+
+tbody > tr > td:nth-child(9) {
+  background-color: #f7f7ff;
+  color: #7c7cbf;
+}
